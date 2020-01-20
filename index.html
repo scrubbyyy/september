@@ -3,22 +3,35 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/nav-mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/nav-desktop.css">
   </head>
   <body>
-    <div id="nav-bar">
-      <a href="javascript:void(0)" class="close-nav" onclick="closeNav()">×</a>
-      <a href="#venue">Venue</a>
-      <a href="#hotel">Hotel</a>
-      <a href="#menu">Menu</a>
-      <a href="#rsvp">RSVP</a>
+    <div id="nav-wrapper-mobile">
+      <div id="nav-bar">
+        <a href="javascript:void(0)" class="close-nav" onclick="closeNav()">×</a>
+        <a href="#venue">Venue</a>
+        <a href="#hotel">Hotel</a>
+        <a href="#menu">Menu</a>
+        <a href="#rsvp">RSVP</a>
+      </div>
+      <button id="nav-menu" onclick="openNav()"></button>
     </div>
-    <button id="nav-menu" onclick="openNav()"></button>
+    <div id="nav-wrapper-desktop">
+      <ul id="nav-bar">
+        <li><img src="img/nav.png" id="nav-icon"></img></li>
+        <li><a href="#venue-link">Venue</a></li>
+        <li><a href="#hotel-link">Hotel<a></li>
+        <li><a href="#menu-link">Menu</a></li>
+        <li><a href="#rsvp-link">RSVP<a></li>
+      </ul>
+    </div>
     <div class="main-header">
       <div class="main-photo" id="one"></div>
       <span class="main-title">Natalia and Anthony's Wedding</span>
     </div>
     <div class="card" id="venue">
+      <span class="content-link" id="venue-link"></span>
       <h3 class="secondary-header">Venue</h3>
       <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -33,6 +46,7 @@
     </div>
     <div class="main-photo" id="two"></div>
     <div class="card" id="hotel">
+      <span class="content-link" id="hotel-link"></span>
       <h3 class="secondary-header">Hotel Info</h3>
       <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -47,6 +61,7 @@
     </div>
     <div class="main-photo" id="three"></div>
     <div class="card" id="menu">
+      <span class="content-link" id="menu-link"></span>
       <h3 class="secondary-header">Menu</h3>
       <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -61,6 +76,7 @@
     </div>
     <div class="main-photo" id="four"></div>
     <div class="card" id="rsvp">
+      <span class="content-link" id="rsvp-link"></span>
       <h3 class="secondary-header">RSVP</h3>
       <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
