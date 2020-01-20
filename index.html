@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anthony and Natalia's Wedding 2020</title>
+    <link rel="icon" href="img/nav.png">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/nav-mobile.css">
     <link rel="stylesheet" type="text/css" href="css/nav-desktop.css">
@@ -10,9 +12,9 @@
     <div id="nav-wrapper-mobile">
       <div id="nav-bar">
         <a href="javascript:void(0)" class="close-nav" onclick="closeNav()">×</a>
-        <a href="#venue">Info</a>
-        <a href="#hotel">Venue</a>
-        <a href="#menu">Wedding Party</a>
+        <a href="#info">Info</a>
+        <a href="#venue">Venue</a>
+        <a href="#party">Wedding Party</a>
         <a href="#rsvp">RSVP</a>
         <a href="#registry">Registry</a>
       </div>
@@ -20,11 +22,11 @@
     </div>
     <div id="nav-wrapper-desktop">
       <ul id="nav-bar">
-        <li><img src="img/nav.png" id="nav-icon"></img></li>
+        <li><img src="img/nav.png" id="nav-icon"></li>
         <li><span id="nav-date">September 20, 2020</span></li>
-        <li><a href="#venue-link">Info</a></li>
-        <li><a href="#hotel-link">Venue<a></li>
-        <li><a href="#menu-link">Wedding Party</a></li>
+        <li><a href="#info-link" id="first">Info</a></li>
+        <li><a href="#venue-link">Venue</a></li>
+        <li><a href="#party-link">Wedding Party</a></li>
         <li><a href="#rsvp-link">RSVP</a></li>
         <li><a href="#registry-link">Registry</a></li>
         <li><span id="nav-location">Saratoga Springs, CA</span></li>
@@ -35,72 +37,97 @@
       <div class="main-photo" id="one"></div>
       <span class="main-title">Natalia and Anthony's Wedding</span>
     </div>
-    <div class="card" id="venue">
-      <span class="content-link" id="venue-link"></span>
+    <div id="intro">
+      Hi friends and family! You have all been a part of our story and we can't wait to share our big day with you all!
+    </div>
+    <div id="intro-bar"></div>
+    <div class="card" id="info">
+      <span class="content-link" id="info-link"></span>
       <h3 class="secondary-header">Info</h3>
-      <p class="content">
-        Where is the event?<br>
-        The ceremony and reception will take place at Saratoga Springs in Cathedral Grove.<br>
-        The address is 22801 Big Basin Way, Saratoga, CA 95070<br>
-        There is plenty of parking available at the venue!<br>
-        When should I arrive?<br>
-        The ceremony will commence at 5:15PM. Please plan on arriving by 4:45PM. Snap a photo for our guestbook and find your seat!<br>
-        May I bring kids/guests to the wedding?<br>
-        No... There are a limited number of seats we have reserved for the venue. The guest list names indicated in the RSVP corresponds to the exact count we have accommodated for your invitation.<br>
-        What is the dress code?<br>
-        It's outdoor. Wear wedding clothes accordingly.<br>
-        Can I take photos or video during the ceremony?<br>
-        The ceremony is unplugged. Don't use your phones/tablets. Feel free to take as many pictures as you'd like during the reception!<br>
-        When do I need to RSVP by?<br>
-        The deadline for RSVP is 8/20/2020<br>
-        Will there be any vegan/vegetarian/gluten free/special diet options?<br>
-        Nope it's pizza XD<br>
-      </p>
+      <div class="content">
+        <p class="question">Where is the event?</p>
+        <ul>
+          <li>The ceremony and reception will take place at Saratoga Springs in Cathedral Grove on September 20, 2020.</li>
+          <li>The address is 22801 Big Basin Way, Saratoga, CA 95070</li>
+          <li>There is plenty of parking available at the venue!</li>
+        </ul>
+        <p class="question">When should I arrive?</p>
+        <ul>
+          <li>The ceremony will commence at 5:15PM. Please plan on arriving by 4:45PM. There will be guestbook for you to sign.</li>
+        </ul>
+        <p class="question">May I bring kids/guests to the wedding?</p>
+        <ul>
+          <li>The venue has a limited number of seats and we will only be able to accomodate the list of people you put in your RSVP.</li>
+        </ul>
+        <p class="question">What is the dress code?</p>
+        <ul>
+          <li>Usual wedding attire is fine. Please keep in the mind this is an all outdoor wedding.</li>
+        </ul>
+        <p class="question">Can I take photos or video during the ceremony?</p>
+        <ul>
+          <li>The ceremony is unplugged. Please refrain from using your phones/tablets. Feel free to take as many pictures as you'd like during the reception!</li>
+        </ul>
+        <p class="question">When do I need to RSVP by?</p>
+        <ul>
+          <li>The deadline for RSVP is 8/20/2020</li>
+        </ul>
+        <p class="question">Will there be any special dietary options?</p>
+        <ul>
+          <li>Please reach out to us if you have any special dietary restrictions.</li>
+        </ul>
+      </div>
     </div>
     <div class="main-photo" id="two"></div>
-    <div class="card" id="hotel">
-      <span class="content-link" id="hotel-link"></span>
-      <h3 class="secondary-header">Venue and Accomodations</h3>
-      <p class="content">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.9090469631233!2d-122.07049068492525!3d37.24986537985839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e4b43b6696425%3A0x5eb7cbd719ad3eea!2sSaratoga%20Springs%20Events%20%26%20Weddings!5e0!3m2!1sen!2sus!4v1579551846154!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        <br>
-        <img src="img/map.jpg"></img>
-      </p>
+    <div class="card" id="venue">
+      <span class="content-link" id="venue-link"></span>
+      <h3 class="secondary-header">Venue & Accomodations</h3>
+      <div class="content">
+        <p>Here is the location of the venue:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.9090469631233!2d-122.07049068492525!3d37.24986537985839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e4b43b6696425%3A0x5eb7cbd719ad3eea!2sSaratoga%20Springs%20Events%20%26%20Weddings!5e0!3m2!1sen!2sus!4v1579551846154!5m2!1sen!2sus" width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <p>Here is a map of the venue. Our wedding will be held at Cathedral Grove which is circled below. There will also be signs when you arrive.</p>
+        <img src="img/map.jpg" id="venue-map">
+        <p>Hotel information is coming soon!</p>
+      </div>
     </div>
     <div class="main-photo" id="three"></div>
-    <div class="card" id="menu">
-      <span class="content-link" id="menu-link"></span>
+    <div class="card" id="party">
+      <span class="content-link" id="party-link"></span>
       <h3 class="secondary-header">Wedding Party</h3>
-      <p class="content">
-        Men:<br>
-        Will, Adrian, Jae, Alex, Andrew<br>
-        Women:<br>
-        Katie, Joanne, Hannah, Kara, Tiffany
-      </p>
+      <div class="content">
+        <ul class="party-pics">
+          <li class="headshot-wrapper"><img src="img/will.jpg" class="headshot"><p id="will">William</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/jae.jpg" class="headshot"><p id="jae">Jae</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/alex.jpg" class="headshot"><p id="alex">Alex</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/adrian.jpg" class="headshot"><p id="adrian">Adrian</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/andrew.jpg" class="headshot"><p id="andrew">Andrew</p n></li class="headshot-wrapper">
+        </ul>
+        <ul class="party-pics">
+          <li class="headshot-wrapper"><img src="img/k8e.jpg" class="headshot"><p id="katie">Katie</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/hannah.jpg" class="headshot"><p id="hannah">Hannah</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/jojo.jpg" class="headshot"><p id="joanne">Joanne</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/tiff.jpg" class="headshot"><p id="tiff">Tiffany</p></li class="headshot-wrapper">
+          <li class="headshot-wrapper"><img src="img/kara.jpg" class="headshot"><p id="kara">Kara</p></li></li class="headshot-wrapper">
+        </ul>
+      </div>
     </div>
     <div class="main-photo" id="four"></div>
     <div class="card" id="rsvp">
       <span class="content-link" id="rsvp-link"></span>
       <h3 class="secondary-header">RSVP</h3>
-      <p class="content">
-        <form>
-          <input type="text" />Name<br>
-          <input type="radio" />Hotel
-        </form>
-      </p>
+      <div class="content">
+        <p>Coming Soon!</p>
+      </div>
     </div>
     <div class="main-photo" id="five"></div>
     <div class="card" id="registry">
       <span class="content-link" id="registry-link"></span>
       <h3 class="secondary-header">Registry</h3>
-      <p class="content">
-        We are happy for you to just be there and share the special day with us.<br>
-        <br>
-        If you are feeling extra generous, we appreciate contributions to our honeymoon fund through cash/check or digitally. Thank you!<br>
-        <br>
-        Paypal - anthony.schott3@gmail.com<br>
-        Venmo - @Anthony-Schott or @Natalia-Ong-1
-      </p>
+      <div class="content">
+        <p>Your presence at our wedding is more than enough for us!</p>
+        <p>However, if you would like to contribute to our honeymoon fund, we'll have an area to leave cash/checks. Alternatively, feel free to use any of the digital payment methods listed below. Thanks so much!</p>
+        <p>Paypal - anthony.schott3@gmail.com</p>
+        <p>Venmo - @Anthony-Schott or @Natalia-Ong-1</p>
+      </div>
     </div>
   </body>
   <script src="js/main.js"></script>
