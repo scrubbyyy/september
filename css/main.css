@@ -11,14 +11,18 @@ body {
 
 .main-header {
   text-align: center;
+  position: relative;
 }
 
 .main-header .main-title {
-  color: #111;
+  color: white;
   font-size: 5vw;
   letter-spacing: 1px;
   font-weight: bold;
   white-space: nowrap;
+  left: 12%;
+  position: absolute;
+  bottom: 1%;
 }
 
 .secondary-header {
@@ -30,6 +34,7 @@ body {
 
 .content {
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 .main-photo {
@@ -40,7 +45,16 @@ body {
 }
 
 .main-photo#one {
-  background-image: url('../img/main.jpg');
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(47, 31, 89, .3)
+    ),
+    url('../img/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-photo#two {
