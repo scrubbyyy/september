@@ -76,7 +76,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .main-photo#one {
@@ -90,7 +89,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .main-photo#two {
@@ -206,4 +204,14 @@ body {
 
 #party {
   padding-bottom: 20px;
+}
+
+@media (min-width: 1124px) {
+  .main-photo {
+    background-attachment: fixed;
+  }
+
+  .main-photo#one {
+      background-attachment: fixed;
+  }
 }
