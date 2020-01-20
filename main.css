@@ -5,6 +5,7 @@
 
 body {
   font-family: Alata;
+  padding: 0;
   margin: 0;
 }
 
@@ -33,6 +34,9 @@ body {
 
 .love {
   min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .love#one {
@@ -43,7 +47,6 @@ body {
       rgba(0, 0, 0, 0)
     ),
     url("img/main.jpg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,24 +54,22 @@ body {
 
 .love#two {
   background-image: url("img/two.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .love#three {
   background-image: url("img/three.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .love#four {
   background-image: url("img/four.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+@media screen and (min-width: 1080px) {
+  .love {
+    background-attachment: fixed;
+  }
+
+  .love#one {
+    background-attachment: fixed;
+  }
 }
