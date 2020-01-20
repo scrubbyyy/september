@@ -42,16 +42,17 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: Alata;
+  padding-top: 17px;
 }
 
 #intro {
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 20px;
   text-align: center;
   font-size: 20px;
+  font-family: Raleway;
 }
 
-#intro-bar {
+#header-bar {
   position: absolute;
   left: 2%;
   width: 96%;
@@ -59,14 +60,15 @@ body {
   background-color: #818181;
 }
 
-.content, #intro {
-  padding-left: 15px;
-  padding-right: 15px;
+.content {
+  padding: 15px;
+  padding: 15px;
   font-family: Raleway;
 }
 
 .question {
   font-family: Raleway-Medium;
+  font-weight: bolder;
 }
 
 .main-photo {
@@ -74,6 +76,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-photo#one {
@@ -87,6 +90,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .main-photo#two {
