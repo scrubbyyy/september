@@ -3,6 +3,16 @@
   src: url(../fonts/Alata-Regular.ttf);
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+
 body {
   font-family: Alata;
   padding: 0;
@@ -35,6 +45,7 @@ body {
 .content {
   padding-left: 5px;
   padding-right: 5px;
+  font-family: Raleway;
 }
 
 .main-photo {
@@ -69,3 +80,6 @@ body {
   background-image: url('../img/four.jpg');
 }
 
+.main-photo#five {
+  background-image: url('../img/five.jpg');
+}

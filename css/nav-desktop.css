@@ -46,9 +46,30 @@
     font-size: 3vh;
     color: #818181;
     transition: 0.3s;
+    font-family: Raleway-Medium;
   }
 
   #nav-bar a:hover {
     color: #f1f1f1;
+  }
+
+  #nav-date {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    padding-top: 35px;
+    font-family: Raleway;
+  }
+
+  #nav-location, #nav-hashtag {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    padding-top: 20px;
+    font-family: Raleway;
+  }
+
+  #nav-hashtag {
+    padding-top: 40px;
   }
 }
