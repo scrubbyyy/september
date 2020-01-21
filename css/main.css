@@ -30,7 +30,8 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
   white-space: nowrap;
-  left: 12%;
+  left: 6%;
+  right: 6%;
   position: absolute;
   bottom: 1%;
   font-family: Alata;
