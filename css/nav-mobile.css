@@ -61,6 +61,8 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
+    left: 2px;
+    top: 2px;
   }
 
   #nav-menu:hover {
