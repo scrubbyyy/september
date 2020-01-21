@@ -115,8 +115,7 @@ body {
 }
 
 ul.party-pics {
-  margin: 0;
-  padding: 0;
+  padding-left: 108px;
 }
 
 .party-pics li {
@@ -130,10 +129,7 @@ ul.party-pics {
   height: 200px;
   border-radius: 50%;
   position: absolute;
-}
-
-.headshot-wrapper:hover img {
-  opacity: .4;
+  left: 0;
 }
 
 .headshot-wrapper {
@@ -142,7 +138,6 @@ ul.party-pics {
 
 .headshot-wrapper p {
   bottom: 54px;
-  left: 130px;
   position: absolute;
   font-size: 30px;
   visibility: hidden;
@@ -151,6 +146,10 @@ ul.party-pics {
   text-transform: uppercase;
   letter-spacing: 10px;
   color: grey;
+}
+
+.headshot-wrapper:hover img {
+  opacity: .4;
 }
 
 .headshot-wrapper:hover p {
@@ -164,6 +163,46 @@ ul.party-pics {
 
 #party {
   padding-bottom: 20px;
+}
+
+#will {
+  left: 11px;
+}
+
+#jae {
+  left: 65px;
+}
+
+#andrew {
+  left: 14px;
+}
+
+#adrian {
+  left: 20px;
+}
+
+#alex {
+  left: 50px;
+}
+
+#hannah {
+  left: 14px;
+}
+
+#katie {
+  left: 40px;
+}
+
+#tiff {
+  left: 16px;
+}
+
+#kara {
+  left: 48px;
+}
+
+#joanne {
+  left: 15px;
 }
 
 @media (min-width: 1124px) {
