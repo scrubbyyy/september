@@ -108,22 +108,28 @@ body {
   width: 80%;
 }
 
-.party-pics ul {
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+.party-pics {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.party-pics {
   margin: 0;
+  padding: 0;
 }
 
 .party-pics li {
-  display: inline;
-  padding: 2%;
+  padding-left: 122px;
+  padding-right: 122px;
+  padding-bottom: 211px;
 }
 
 .headshot {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  position: absolute;
 }
 
 .headshot-wrapper:hover img {
@@ -135,7 +141,8 @@ body {
 }
 
 .headshot-wrapper p {
-  bottom: 80px;
+  bottom: 54px;
+  left: 130px;
   position: absolute;
   font-size: 30px;
   visibility: hidden;
@@ -149,46 +156,6 @@ body {
 .headshot-wrapper:hover p {
   visibility: visible;
   opacity: 1;
-}
-
-#will {
-  left: 41px;
-}
-
-#jae {
-  left: 92px;
-}
-
-#andrew {
-  left: 42px;
-}
-
-#adrian {
-  left: 50px;
-}
-
-#alex {
-  left: 78px;
-}
-
-#hannah {
-  left: 45px;
-}
-
-#katie {
-  left: 70px;
-}
-
-#tiff {
-  left: 45px;
-}
-
-#kara {
-  left: 78px;
-}
-
-#joanne {
-  left: 48px;
 }
 
 #registry {
