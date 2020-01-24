@@ -3,10 +3,6 @@
     display: none;
   }
 
-  #nav-wrapper-mobile {
-    display: all;
-  }
-
   #nav-bar {
     width: 0;
     position: fixed;

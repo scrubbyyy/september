@@ -26,12 +26,12 @@ body {
 
 .main-header .main-title {
   color: white;
-  font-size: 5vw;
+  font-size: 6vw;
   letter-spacing: 1px;
   font-weight: bold;
   white-space: nowrap;
-  left: 6%;
-  right: 6%;
+  left: 4%;
+  right: 4%;
   position: absolute;
   bottom: 1%;
   font-family: Alata;
@@ -47,9 +47,12 @@ body {
 }
 
 #intro {
-  padding-top: 20px;
   text-align: center;
   font-size: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 #header-bar {
@@ -60,9 +63,8 @@ body {
   background-color: #818181;
 }
 
-.content, #intro {
+.content {
   padding: 15px;
-  font-family: Raleway;
 }
 
 .question {
