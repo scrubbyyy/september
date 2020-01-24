@@ -78,7 +78,7 @@ body {
       rgba(0, 0, 0, 1)
     ),
     url('../img/main.jpg');
-    background-position: 0% 35%;
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
 }
