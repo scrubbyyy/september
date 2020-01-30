@@ -1,6 +1,6 @@
 @media (min-width: 1124px) {
   #nav-wrapper-desktop {
-    height: 76px;
+    height: 78px;
   }
 
   #nav-wrapper-mobile {
@@ -9,7 +9,7 @@
 
   #nav-bar {
     width: 100%;
-    height: 76px;
+    height: 78px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,7 +24,7 @@
 
   .content-link {
     position: relative;
-    top: -76px;
+    top: -78px;
   }
 
   #nav-icon {
